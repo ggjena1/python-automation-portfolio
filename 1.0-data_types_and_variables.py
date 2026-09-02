@@ -145,6 +145,20 @@ Print two of the variables.
 
 Then use an f-string to print a sentence describing the player using at least 3 of the variables.
 
+'''
+#1 
+name = "Messi"
+age = 35
+height = 5.5
+current_injury = None
+is_captain = True
+
+print(name)
+print(is_captain)
+
+print(f"My favorite player is {name} and his height is {height} and his age is {age}")
+
+'''
 2. You are building a small hotel booking system.
 
 Create 5 variables about a hotel room. The variables should include:
@@ -250,3 +264,56 @@ Print a final descriptive sentence using an f-string that includes the customer 
 
 Make sure every variable name follows Python's variable naming rules.
 '''
+
+
+#2 
+room_name = "Luxury Delux"
+total_of_room = 2
+room_no = 2.2211
+is_room_available = False
+current_guest = None
+
+print(f"The room number is {room_no} and has {total_of_room} rooms and currently available guest {current_guest}")
+
+#3
+student_name = "Gautam"
+age = 21
+course = "Bachelor"
+GPA = 9.8
+scholarship_status = None
+is_allowed_to_register = True
+
+print(f"{student_name} is registered for the {course} and has GPA {GPA}")
+
+
+
+#4 In_progress
+
+
+#5
+employee_name = "Rocks"
+department = "Finance"
+years_of_experience = 10
+monthly_salary = 10500
+manager_name = None
+
+print(f"{employee_name} belongs to {department} and having {years_of_experience} years of experience")
+
+#6
+#6 
+movie_title = "Titanic"
+number_of_tickets = 2
+ticket_price = 10
+customer_name = "Gerrard"
+payment_completed = True
+
+total_ticket_cost = number_of_tickets * ticket_price
+
+print(f"{movie_title} film ticket is sold to {customer_name} with {number_of_tickets} seats and for the amount {total_ticket_cost}")
+
+#7 
+
+
+a = 'hello world'
+print(a)
+

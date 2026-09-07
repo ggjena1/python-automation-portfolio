@@ -1,164 +1,26 @@
-
 '''
-Student evaluation problem 1 
-
-Get the users age 
-If they are 18 or older, print 'You can vote now!'
-Otherwise print 'You cannot vote yet, better luck next time!'
-
-Further classify the adults who can vote as below
-
-18 or above to 30 (included) as young adults
-30 to 55 (included) as middle aged
-above 55 as senior citizens
-
-print the classification
-'''
-
-#data types and variables only get us so far
-# our programs need to behave differently under diffrent cirucm statnces
-#condition vs the action - having breakfast at home
-
-print(2+2)
-print(2>3)
-
-#solution vs evaluation 
-
-if True: 
-	print("Hello")
-
-if False:
-	print("World")
-
-#ownership of code, indicating ownership through :, different ranks of code, 
-#further below in rank more toward the right the code goes
-
-'''
-TYPE 1: if loop (when you have only one option) 
-if CONDITION: 
-	STATEMENT
-	
-Type 2: if else loop (when you have two options) 
-if CONDITION: 
-	STATEMENT1
-else
-	STATMENT2
-	
-Type 3: if elif else loop (when you have three or more options) 
-
-if condition1:
-    statement1
-elif condition2:
-    statement2
-elif condition3:
-    statement3
-else:
-    statement4
-    
-TYPE 4: if loop inside if loop 
-
-if CONDITION1: 
-	if CONDITION2: 
-		STATEMENT2
-	else:
-		STATEMENT3
-else:
-	STATEMENT4
-		
-
-'''
-age=3
-if age>=18:
-	print("you can vote") 
-	
-if age>=18:
-	print("you can vote") 
-else:
-	print("you cannot vote yet")
-	
-
-grade = 45
-'''
-Get the user's score (between 0 and 100), and assign the grade as below
-marks between 0(0 included) and 25 (Fail)
-25(included) and 50 (C)
-50(included) and 75 (B)
-75 (included) and 100 (A)
-'''
-if grade<25:
-    result= 'fail'
-elif grade>25 and grade<50:
-    result = 'C'
-elif grade>50 and grade<75:
-    result = 'B'
-else:
-    result= 'A'
-
-if True:
-    print(f"student of a {result} grade")
-
-
-''' 
---------------- TYPE 2 if loop homework ----------------
-
-Write a Python program to get the user’s age and print their life stage as shown below:
-
-Age between 0 (included) and 12 → Child
-Age between 12 (included) and 19 → Teenager
-Age between 19 (included) and 60 → Adult
-Age between 60 (included) and 120 → Senior
-
-0------12------19----------------60---------------120
- Child   Teen    Adult              Senior
-
-'''
-
-
-
-
-# nested if statements - ex1
-'''
-if condtion1:
-    if condition2:
-        statement1
-    else:
-        statement2
-
-else:
-    if condition3:
-        statement3
-    else:
-        statement4
-
-'''
-#avoid cases where students give negative marks of higer than 100
-# every mark should be between 0 and 100
-grade = int(input("please enter you grade:\n"))
-if grade<0:
-    print("negative marks are not allowed")
-elif grade>100:
-    print("highest mark possible is 100")
-else:
-    if grade<25:
-        result= 'fail'
-    elif grade>25 and grade<50:
-        result = 'C'
-    elif grade>50 and grade<75:
-        result = 'B'
-    else:
-        result= 'A'
-
-    print(f"student got {result} grade")
-
-'''
------------------- NESTED IF LOOPS INCLASS ASSIGNMENT -------------
-
 
 Get the bill value from the user. If it is higher than 1000 USD, offer a 10% discount. 
 Check if the user is a member and if so apply another 10% discount.
 Print the final bill value for the user
+'''
+final_bill = 0 
+bill = int(input("Enter a bill value: "))
+
+if bill > 1000:
+    final_bill = bill - (bill * 0.1)
+
+    membership=input("Are you a member? ('y' or 'n')")
+    if membership =='y':
+        additional_discount = final_bill - (final_bill * 0.1)
+    else: 
+        print(final_bill)
+else:
+    print('No Discount')
 
 
+# HOMEWORK 
+'''
 ------------------ NESTED IF LOOPS HOMEWORK ------------------------
 Write a program that determines if a student is eligible for a school field trip based on their grade and parental consent. 
 Use nested if statements with only one inner if loop.
@@ -268,10 +130,10 @@ Write a Python program that:
   * The number of reviews
 * Prints the classification according to the rules above.
 
-'''
+
 
 ##################### DIFFICULT PORBLLEMS - NO CLEAR INSTRUCTIONS ########################
-'''
+
 
 1. A small grocery shop gives a warning message if a customer tries to enter a bill amount that is less than zero. Otherwise, it prints the bill amount. Design a program that behaves this way.
 
@@ -286,7 +148,4 @@ Write a Python program that:
 6. An online store checks whether an order qualifies for a discount. If the order value is high enough, it then checks if the customer is a registered member to decide if an extra benefit is applied. Create a program that determines the final outcome.
 
 7. A game awards players based on two factors: their level and their score. Players below a certain level are treated differently from advanced players. Among advanced players, only those with high scores receive special rewards, while others receive standard rewards. Write a program that determines what reward a player receives.
-
 '''
-
-

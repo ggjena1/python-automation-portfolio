@@ -27,7 +27,7 @@ print("The " + book_name + " is a book that costs " +  str(selling_price) + " wh
 
 #2. using print parameters
 # include every string literal and string variable as a parameter of the print function
-print("The",book_name," is a book that costs ",str(selling_price))
+print("The",book_name,"is a book that costs",str(selling_price))
 
 #3. f-strings
 print(f"The {book_name} is a book that costs {selling_price} where {no_of_copies_sold} copies has been sold.")

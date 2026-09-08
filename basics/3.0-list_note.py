@@ -16,7 +16,7 @@ spouseName= None
 Student task1: 
 Create variables to store the scores of 3 students in a class
 Choose the appropriat variables names and the right data type
-''''
+'''
 
 student_one = 55
 student_two= 76

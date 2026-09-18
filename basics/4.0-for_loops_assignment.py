@@ -1,26 +1,4 @@
-#create a simple list that contains 3 marks
-
-marks = [44,65,89]
-
-# add 10 marks to each score and print it back
-# marks[0]=marks[0]+10
-# marks[1]=marks[1]+10
-# marks[2]=marks[2]+10
-
-# for i in range(len(marks)):
-#     print(i, marks[i]+10)
-
-#syntax
-'''
-for <placeholder> in <list>:
-	print(<placeholder>)
-'''
-
-# for mark in marks: 
-#     print(mark+10)
-
-
-#Homework:
+#Homework: Assignment
 '''
 1. A weather station records the temperatures measured at 6 different times during the day.
 Create a list containing 6 temperature values.
@@ -40,7 +18,7 @@ for i in range(len(temp)):
     else:
         print('Normal')
 
-2nd solution: final solution for review
+# 2nd solution: final solution for review
 temp = [23.2, 23.5, 29, 28.4, 22, 21.2]
 for i in range(len(temp)):
     print(temp[i], temp[i]+2)
@@ -48,7 +26,6 @@ for i in range(len(temp)):
         print('Hot')
     else:
         print('Normal')
-
 
 '''
 2. A supermarket records the number of customers entering the store during 8 different hours.
@@ -72,7 +49,7 @@ for i in range(len(customer_count)):
     sum = sum+customer_count[i]
 print(f'Total number of customers : {sum}')
 
-2nd solution: final solution for review
+# 2nd solution: final solution for review
 customer_count = [35, 84, 32, 90, 21, 86, 34, 90]
 for i in range(len(customer_count)):
     print(customer_count[i])
@@ -244,52 +221,5 @@ if product_name in products:
 else:
     # product does not exists
     print('Product Unavailable')
-
-
-
-
-# Additional Questions from Copilot
-'''Use nested loop to print every temperature
-Add 2 degrees to each temperature and print the updated value.
-'''
-
-# temps = [
-#     [21, 23, 25, 22],
-#     [19, 20, 18, 21],
-#     [24, 26, 27, 25]
-# ]
-
-# for i in temps:
-#     for j in i:
-#         print(f'old temp is : {j} and updated value after additional 2 degree is: {j+2}')
-
-'''
-A school stores grades of 3 classes, each with 3 students:
-1. Add 10 marks to each grade
-2. Print “Pass” if updated grade ≥ 50, else “Fail”
-3. Store all updated grades in a list
-4. Print the highest updated grade
-'''
-# grades = [
-#     [45, 55, 65],
-#     [35, 75, 85],
-#     [50, 40, 90]
-# ]
-
-# updated_mark = []
-
-# for i in grades:
-#     for j in i:
-#         new_mark= j+10
-#         print(j, new_mark)
-
-#         if new_mark >= 50:
-#             print('Pass')
-#         else:
-#             print('Fail')
-#         updated_mark.append(new_mark)
-
-# highest_mark = max(updated_mark)
-# print(f'Highest Mark is :  {highest_mark}')
 
     

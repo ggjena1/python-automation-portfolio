@@ -68,3 +68,50 @@ person = {
 
 for key, value in person.items():
     print(key, ":", value)
+
+
+
+# Additional Questions from Copilot
+
+'''Use nested loop to print every temperature
+Add 2 degrees to each temperature and print the updated value.
+'''
+
+temps = [
+    [21, 23, 25, 22],
+    [19, 20, 18, 21],
+    [24, 26, 27, 25]
+]
+
+for i in temps:
+    for j in i:
+        print(f'old temp is : {j} and updated value after additional 2 degree is: {j+2}')
+
+'''
+A school stores grades of 3 classes, each with 3 students:
+1. Add 10 marks to each grade
+2. Print “Pass” if updated grade ≥ 50, else “Fail”
+3. Store all updated grades in a list
+4. Print the highest updated grade
+'''
+grades = [
+    [45, 55, 65],
+    [35, 75, 85],
+    [50, 40, 90]
+]
+
+updated_mark = []
+
+for i in grades:
+    for j in i:
+        new_mark= j+10
+        print(j, new_mark)
+
+        if new_mark >= 50:
+            print('Pass')
+        else:
+            print('Fail')
+        updated_mark.append(new_mark)
+
+highest_mark = max(updated_mark)
+print(f'Highest Mark is :  {highest_mark}')

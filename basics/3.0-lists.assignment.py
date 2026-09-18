@@ -1,16 +1,8 @@
-'''
-ROAD MAP
-
-1. data types and variable- recording data/information in the code 
-2. if conditions - make decisions based on our data
-3. list-
-
-'''
-
-# space_crafts = ['Apollo', 'Voyager', 'Cassini']
-# print(space_crafts)
-# print(space_crafts[0])
-# print(space_crafts[-1])
+# List - Basic Operation 
+space_crafts = ['Apollo', 'Voyager', 'Cassini']
+print(space_crafts)
+print(space_crafts[0])
+print(space_crafts[-1])
 
 fruits = ['mango', 'kiwi', 'melon', 'papaya', 'banana', 'cherries']
 # list slicing
@@ -19,24 +11,22 @@ fruits = ['mango', 'kiwi', 'melon', 'papaya', 'banana', 'cherries']
 # end = where the slice ends (last element index by default)
 # step = how many consecutive elements to includes (1 by default)
 
-# print(fruits[0:3:1])
-# print(fruits[4:6:1])
+print(fruits[0:3:1])
+print(fruits[4:6:1])
 
 '''
-In class problem
 nums = [1,2,3,4,5,6,7,8,9,10,11,1213,14,15,16,17,18,19,20]
-
 take the nums list and print 
 - all odd numbers
 - all even numbers
 - all the multiples of 3
 '''
-# nums = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+nums = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
 
-# print(nums)
-# print(nums[0:20:2])
-# print(nums[1:20:2])
-# print(nums[2:20:3])
+print(nums)
+print(nums[0:20:2])
+print(nums[1:20:2])
+print(nums[2:20:3])
 
 # RANGE FUNCTION
 # a function for creating uniform sequences of numbers
@@ -46,18 +36,18 @@ take the nums list and print
 # step size : how many consecutive elements will get generated (1 by default)
 
 # creating numbers from 1 to 10
-# a = list(range(1,11,1))
-# print(a)
+a = list(range(1,11,1))
+print(a)
 
 #EXERCISE
 #print all the odd numbers, even numbers and multiples of 3 between 1 and 100
 
-# b = list(range(1,101,2)) 
-# print(b)
-# c = list(range(2,101,2))
-# print(c)
-# d = list(range(3,100,3))
-# print(d)
+b = list(range(1,101,2)) 
+print(b)
+c = list(range(2,101,2))
+print(c)
+d = list(range(3,100,3))
+print(d)
 
 
 # HOME WORK
@@ -71,15 +61,15 @@ Create variables to store:
 
 Then use an if condition to display a message depending on whether the shop is open or closed.
 '''
-# shop_name = 'KoffieKupje'
-# no_of_coffee_sold = int(input('Enter total_no_of_coffee_sold:' ))
-# price_of_each_coffee = 3.7
-# is_open = True
+shop_name = 'KoffieKupje'
+no_of_coffee_sold = int(input('Enter total_no_of_coffee_sold:' ))
+price_of_each_coffee = 3.7
+is_open = True
 
-# if is_open == True :
-#     print('KoffieKupje is Open')
-# else:
-#     print('KoffieKupje is Closed')
+if is_open == True :
+    print('KoffieKupje is Open')
+else:
+    print('KoffieKupje is Closed')
 
 '''
 2. A cinema wants to check whether a customer can watch a movie.
@@ -89,13 +79,13 @@ Ask the user for:
 If the customer is 18 or older, display a message saying they can watch the movie.
 Otherwise, display a message saying they must choose an age-appropriate movie.
 '''
-# name = input('Enter your name: ')
-# age = int(input('Enter your age: '))
+name = input('Enter your name: ')
+age = int(input('Enter your age: '))
 
-# if age >=18:
-#     print('You can watch the movie')
-# else:
-#     print('Sorry !!! you must choose an age-appropriate movie  ')
+if age >=18:
+    print('You can watch the movie')
+else:
+    print('Sorry !!! you must choose an age-appropriate movie  ')
 
 '''
 3. A small grocery store wants to keep track of products in stock.
@@ -107,13 +97,12 @@ Then:
 * Print the first 3 products using slicing
 * Print the last 3 products using slicing
 '''
-
-# groceries = ['salt', 'museli', 'eggs', 'milk', 'sugar', 'oil']
-# print(groceries)
-# print(groceries[0])
-# print(groceries[-1])
-# print(groceries[0:3])
-# print(groceries[3::])
+groceries = ['salt', 'museli', 'eggs', 'milk', 'sugar', 'oil']
+print(groceries)
+print(groceries[0])
+print(groceries[-1])
+print(groceries[0:3])
+print(groceries[3::])
 
 '''
 4. A school wants to record the names of students who joined different school clubs.
@@ -123,14 +112,14 @@ Use an if condition to check whether the name exists in the list.
 If the student is in the list, display a message saying they are registered for a club.
 Otherwise, display a message saying they are not registered.
 '''
-# names = ['Gautam', 'Ram', 'Rahul', 'Rishi', 'Rishi', 'Rocky', 'Ranjan', 'Raghu', 'Rayan', 'Roul']
+names = ['Gautam', 'Ram', 'Rahul', 'Rishi', 'Rishi', 'Rocky', 'Ranjan', 'Raghu', 'Rayan', 'Roul']
 
-# a = input('Enter the student name please : ')
+a = input('Enter the student name please : ')
 
-# if a in names:
-#     print('Already Registered')
-# else:
-#     print('Not Registered')
+if a in names:
+    print('Already Registered')
+else:
+    print('Not Registered')
 
 
 '''
@@ -145,18 +134,18 @@ If the person's name is in the member list and their age is 16 or older, display
 Otherwise, display a message explaining that they cannot use the machine.
 '''
 
-# member = ['Rohith', 'Roxy', 'Rocky', 'Raj', 'Rahul', 'Ram', 'Ronald', 'Rooijaker']
+member = ['Rohith', 'Roxy', 'Rocky', 'Raj', 'Rahul', 'Ram', 'Ronald', 'Rooijaker']
 
-# name = input('Enter your name :')
-# age = int(input('Enter your age: '))
+name = input('Enter your name :')
+age = int(input('Enter your age: '))
 
-# if name in member:
-#     if age >= 16:
-#         print('You can use the machine')
-#     else:
-#         print('You can not use the machine')
-# else: 
-#     print('You are not a member. Please register yourself')
+if name in member:
+    if age >= 16:
+        print('You can use the machine')
+    else:
+        print('You can not use the machine')
+else: 
+    print('You are not a member. Please register yourself')
 
 
 '''
@@ -168,12 +157,12 @@ For each package, use an if condition to check whether its weight is greater tha
 Display whether each package is within the standard weight limit or requires special handling.
 '''
 
-# package_wights = [26.3, 11,12, 13, 14, 32, 33,23, 29.0,12.4]
+package_wights = [26.3, 11,12, 13, 14, 32, 33,23, 29.0,12.4]
 
-# for i in range(len(package_wights)):
-#     print(i, package_wights[i])    
-#     if package_wights[i] > 10:
-#         print('Additional charges required')
+for i in range(len(package_wights)):
+    print(i, package_wights[i])    
+    if package_wights[i] > 10:
+        print('Additional charges required')
 
 
 '''
@@ -188,18 +177,18 @@ Use variables, user input, if conditions, lists, indexing, list slicing, and ran
 sequence.index(element, start, end)
 
 '''
-# animal = ['elephant', 'giraffe', 'tiger', 'lion', 'monkey', 'wolf']
+animal = ['elephant', 'giraffe', 'tiger', 'lion', 'monkey', 'wolf']
 
-# name= input('Enter the animal name you want search: ').lower()
-# if name in animal:
-#     print(animal.index(name))
+name= input('Enter the animal name you want search: ').lower()
+if name in animal:
+    print(animal.index(name))
 
-#     if animal in animal[:5:]:
-#         print('Within first 5 elements')
-#     else:
-#         print('within last 5 elements')
-# else: 
-#     print('Animal is not recorded')
+    if animal in animal[:5:]:
+        print('Within first 5 elements')
+    else:
+        print('within last 5 elements')
+else: 
+    print('Animal is not recorded')
 
 
     
@@ -207,7 +196,7 @@ sequence.index(element, start, end)
 
 
 
-# 15-09-2026 # HOME WORK
+# 15-09-2026 # HOME WORK # Assignment
 '''
 1. A city bus company records the number of passengers boarding at different stops.
 Create a list containing the number of passengers who boarded at 8 different stops.

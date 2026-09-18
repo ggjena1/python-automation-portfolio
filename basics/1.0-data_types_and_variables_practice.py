@@ -9,7 +9,6 @@ selling_price = 12.2
 Author = None
 is_available = False
 
-
 print(book_name)
 print(is_available)
 
@@ -42,9 +41,7 @@ series = 100
 model_active = None
 is_automatic = False
 
-
 print(f"This {car_model} belongs to series {series} with engine type {engine_type} and GOA as {is_automatic} and active status as {model_active}")
-
 '''
 
 VARIABLE NAMING RULES IN PYTHON 
@@ -75,18 +72,18 @@ IN CLASS EXERCISE: Mark invalid variable names and mention why they are invalid
 userName  
 2nd_place -> Invalid(starts with 2)
 total$amount -> Invalid(Invalid character $)
-final_score 
+final_score -> Valid
 employee-name -> Invalid(Invalid character -)
-_hiddenValue 
+_hiddenValue -> Valid
 while  -> Invalid(Reserved keyward)
-MAXSPEED 
+MAXSPEED-> Valid 
 pi_3.14 -> Invalid(.)
 first name -> Invalid(blank space)
-student_123 
+student_123 -> Valid 
 True -> Invalid(Reserved keyward)
-__private_var
+__private_var -> Valid
 discount% -> Invalid(Invalid character %)
-myVariable
+myVariable -> Valid
 
 VARIABLE NAMING CONVENTIONS
 
@@ -98,7 +95,6 @@ We use below conventions to kill two birds with one stone
 the_big_red_white_car = Snake case (generic variable naming)
 TheBigRedWhiteCar= Pascal case (naming classes)
 theBigRedWhiteCar = camel case (generic variable naming)
-
 
 PEP 8 Naming Conventions
 Variables/functions: snake_case
@@ -113,7 +109,7 @@ Lesson timings
 if conditions - 1 lesson 
 lists (array) - 2 lessons
 for loops - 1 lesson 
-while loops - 1 lesson 
+while loos - 1 lesson 
 tuples - 1 lesson 
 dictionarries - 3 lesson s
 functions - 5 lessons 
@@ -130,21 +126,16 @@ regex (re)- 3 lessons
 
 
 # HOMEWORK
-
-'''1. You are creating a profile for a football player.
-
+'''
+1. You are creating a profile for a football player.
 Create 5 variables about the player. The variables should include:
-
 * string
 * int
 * float
 * None
 * bool
-
 Print two of the variables.
-
 Then use an f-string to print a sentence describing the player using at least 3 of the variables.
-
 '''
 #1 
 name = "Messi"
@@ -152,120 +143,21 @@ age = 35
 height = 5.5
 current_injury = None
 is_captain = True
-
 print(name)
 print(is_captain)
-
 print(f"My favorite player is {name} and his height is {height} and his age is {age}")
 
 '''
 2. You are building a small hotel booking system.
-
 Create 5 variables about a hotel room. The variables should include:
-
 * string
 * int
 * float
 * None
 * bool
-
 Print a descriptive sentence using at least 3 variables.
-
 Then print each variable separately.
-
-3. You are creating a student record for a university.
-
-Create variables for:
-
-* student name
-* age
-* course
-* GPA
-* scholarship status
-
-Use appropriate Python data types.
-
-Print a sentence containing the student's name, course, and GPA using an f-string.
-
-Then create a boolean variable that indicates whether the student is allowed to register for courses and print it.
-
-4. You are building a food delivery application.
-
-Create variables for:
-
-* restaurant name
-* number of items ordered
-* delivery fee
-* delivery person's name
-* order delivered status
-
-Use appropriate Python data types.
-
-Print a sentence describing the order using an f-string.
-
-Then create another variable for the total cost of the order and print a second sentence containing the restaurant name and total cost.
-
-5. You are creating a small employee information system for a company.
-
-Create variables for:
-
-* employee name
-* department
-* years of experience
-* monthly salary
-* manager name
-
-The manager name should initially be None because the employee has not been assigned a manager.
-
-Print a sentence describing the employee using an f-string.
-
-Then change the manager variable to a name and print another sentence showing the employee's updated manager.
-
-Make sure all variable names follow Python's variable naming rules.
-
-6. You are building a cinema ticket booking system.
-
-Create variables for:
-
-* movie title
-* number of tickets
-* ticket price
-* customer name
-* payment completed
-
-Calculate the total ticket cost using the number of tickets and ticket price.
-
-Print a sentence containing the movie title, customer name, number of tickets, and total cost.
-
-Then use an if statement to print whether the booking is confirmed or not based on the payment status.
-
-Use meaningful variable names that follow Python naming rules.
-
-7. You are creating a simple online store order system.
-
-Create variables for:
-
-* product name
-* quantity
-* unit price
-* customer name
-* discount percentage
-* order status
-
-Calculate the original cost using the quantity and unit price.
-
-Use an if statement to apply a discount only when the discount percentage is greater than 0.
-
-Calculate the final cost after the discount.
-
-Then use another if statement to determine whether the order should be shipped based on the order status.
-
-Print a final descriptive sentence using an f-string that includes the customer name, product name, quantity, and final cost.
-
-Make sure every variable name follows Python's variable naming rules.
 '''
-
-
 #2 
 room_name = "Luxury Delux"
 total_of_room = 2
@@ -274,6 +166,87 @@ is_room_available = False
 current_guest = None
 
 print(f"The room number is {room_no} and has {total_of_room} rooms and currently available guest {current_guest}")
+
+'''
+3. You are creating a student record for a university.
+Create variables for:
+* student name
+* age
+* course
+* GPA
+* scholarship status
+Use appropriate Python data types.
+Print a sentence containing the student's name, course, and GPA using an f-string.
+Then create a boolean variable that indicates whether the student is allowed to register for courses and print it.
+'''
+
+'''
+4. You are building a food delivery application.
+Create variables for:
+* restaurant name
+* number of items ordered
+* delivery fee
+* delivery person's name
+* order delivered status
+
+Use appropriate Python data types.
+Print a sentence describing the order using an f-string.
+Then create another variable for the total cost of the order and print a second sentence containing the restaurant name and total cost.
+'''
+
+
+'''
+5. You are creating a small employee information system for a company.
+Create variables for:
+* employee name
+* department
+* years of experience
+* monthly salary
+* manager name
+
+The manager name should initially be None because the employee has not been assigned a manager.
+Print a sentence describing the employee using an f-string.
+Then change the manager variable to a name and print another sentence showing the employee's updated manager.
+Make sure all variable names follow Python's variable naming rules.
+'''
+
+'''
+6. You are building a cinema ticket booking system.
+Create variables for:
+* movie title
+* number of tickets
+* ticket price
+* customer name
+* payment completed
+
+Calculate the total ticket cost using the number of tickets and ticket price.
+Print a sentence containing the movie title, customer name, number of tickets, and total cost.
+Then use an if statement to print whether the booking is confirmed or not based on the payment status.
+Use meaningful variable names that follow Python naming rules.
+'''
+
+
+
+'''
+7. You are creating a simple online store order system.
+Create variables for:
+* product name
+* quantity
+* unit price
+* customer name
+* discount percentage
+* order status
+
+Calculate the original cost using the quantity and unit price.
+Use an if statement to apply a discount only when the discount percentage is greater than 0.
+Calculate the final cost after the discount.
+Then use another if statement to determine whether the order should be shipped based on the order status.
+Print a final descriptive sentence using an f-string that includes the customer name, product name, quantity, and final cost.
+Make sure every variable name follows Python's variable naming rules.
+'''
+
+
+
 
 #3
 student_name = "Gautam"

@@ -1,3 +1,5 @@
+
+
 '''
 ROAD MAP
 
@@ -23,6 +25,10 @@ Choose the appropriat variables names and the right data type
 score_1 = 95
 score_2 = 43
 score_3 = 67
+
+student_1_score = 91
+student_2_score = 95
+student_3_score = 65.5
 
 '''
 something to hold a collection of data
@@ -214,3 +220,247 @@ If the animal does not exist in the list, display a message saying that the anim
 Use variables, user input, if conditions, lists, indexing, list slicing, and range() where appropriate.
 
 '''
+
+'''
+You are given with the below items list
+check if the first element is eggs, and if so print the third element from the list 
+create a list using the last three elements and check if the last element of that list is sugar
+'''
+
+items = ['eggs','chicken','bread','milk','cheese','sugar']
+if items[0] == 'eggs':
+    print(items[2])
+
+items_1 =items[3:6]
+print(items_1)
+
+print(items_1[0])
+print(items_1[1])
+print(items_1[2])
+
+if items_1[2] == 'sugar':
+    print(f'The last element is {items_1[2]}')
+
+
+# if items_1[0] == 'sugar':
+#     print('This is a correct list')
+
+
+# # if items_1[2] == 'sugar':
+# #     print(items_1)
+
+
+
+# print(items[20])
+'''
+Traceback (most recent call last):
+  File "/Users/gautamjena/perply_python_Class/basics/3.0-lists.py", line 248, in <module>
+    print(items[20])
+          ~~~~~^^^^
+IndexError: list index out of range
+'''
+
+#string lists
+friends = ['olivia', 'anaya', 'petra', 'farid', 'arun']
+
+#non-homogenous / heterogenous lists
+johns_info= ['John', 45, 56.7, False,[1,2,3]]
+
+#create an empty list
+values= []
+
+
+#CHANGING A LIST ELEMENT  
+print(friends)
+friends[0]= 'Pawan'
+print(friends)
+
+#ADDING AN ELEMENT TO THE END OF THE LIST 
+print(friends)
+friends.append("Zoi")
+print(friends)
+
+# all_friends = friends + friends2 
+# print(all_friends)
+
+
+#explain the difference between a function and a method 
+'''
+Functions vs Methods 
+
+function are like radios
+methods are like car radios 
+
+just like functions are independent. they can operate independently 
+at any point
+
+functions that we have learned so far 
+print()
+len()
+input()
+type()
+
+methods are like car radios. they cannot exist by themselves.
+they are always attached to their parent object (car). they only 
+serve  the car. they go wherever the car goes
+
+methods 
+
+list_name.append()
+extend()
+insert()
+pop()
+remove()
+count()
+'''
+
+# inserting "Nadia" between anaya and petra
+friends.insert(2,"Nadia")
+print(friends)
+
+#inserting multiple elements to a list 
+# method 1: list concatenation
+
+friends2= ['Sam','Dean', 'Bobby', 'Castiel']
+
+all_friends = friends + friends2
+print(all_friends)
+
+#  method 2: usign  the extend method
+print(f"friends before the op: {friends}")
+print(f"friends2 before the op: {friends2}")
+
+friends.extend(friends2)
+print(f"friends after the op: {friends}")
+print(f"friends2 after the op: {friends2}")
+
+#removing elements
+print(friends)
+res  = friends.pop()
+print(friends)
+
+#removing a specific element
+# method1 : using pop method
+
+friends.pop(4)
+print(friends)
+
+# method 2 : using remove method
+if 'arunn' in friends:
+    friends.remove('arunn')
+
+
+#STRINGS ARE CHARACTER LISTS
+name = 'Van Helsing'
+
+# ['V','a','n',' ','H','e','l','s','i','n','g']
+
+'''
+IN CLASS EXERCISE
+Get the users first name, second name and the family name 
+Print the name with initials.
+
+Ex: If the users full name (first name, second name and last name) is
+John Kelvin Depp
+
+name with initials should be 
+J. K. Depp
+
+'''
+
+# first_name = input('Enter first name: ')
+# second_name = input('Enter second name: ')
+# sur_name = input('Enter sur name: ')
+
+# name_initials = print(f'{first_name[0]}. {second_name[0]}. {sur_name}')
+# print(name_initials)
+
+#membership test of lists
+full_name = 'Dean Winchester'
+if 'D' in full_name:
+    print("The letter D is in the person's name")
+else:
+    print("The letter is not there")
+
+#LIST REPETION
+first_names=['hi'] 
+print(first_names*10)
+   
+#USEFUL BUILT IN FUNCTIONS
+scores = [43,56,35,23,78,34,87,56,35,24]
+friends = ['olivia', 'farid','anaya', 'petra', 'farid', 'arun', 'farid']
+
+total = sum(scores)
+print(total)
+highest = max(scores)
+print(highest)
+lowest = min(scores)
+print(lowest)
+count = friends.count("farid")
+print(count)
+
+#MULTI DIMENSIONAL LISTS
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+]
+print(matrix[1][2])  
+print(matrix[2][1]) 
+print(matrix[0][2])     # prints 6
+
+'''
+A temperature measuring sensor takes 3 readings per day. 
+it saves it in a list. and these lists are saved in a another list for the month. 
+
+Hence the resulting list is a 30 x 3 matrix. 
+
+Create a program that will simulate the temperature reading for two days. 
+Print the resulting matrix at the end. 
+Use input function to get the temp value from the user for each reading.
+'''
+
+
+temps = []
+
+temp1 = int(input('Enter the first readign for the day: '))
+temp2 = int(input('Enter the first readign for the day: '))
+temp3 = int(input('Enter the first readign for the day: '))
+
+temps_for_the_day = [temp1,temp2,temp3]
+temps.append(temps_for_the_day)
+
+temp1 = int(input('Enter the first readign for the day: '))
+temp2 = int(input('Enter the first readign for the day: '))
+temp3 = int(input('Enter the first readign for the day: '))
+
+temps_for_the_day = [temp1,temp2,temp3]
+temps.append(temps_for_the_day)
+
+print(temps)
+
+'''
+namee second element 
+add Turkey to the end of the list. 
+
+Create another list of 3 countries and create a new list with all the coutnries from the first and the second list
+
+'''
+
+# countries = ['India', 'Srilanka', 'Netherlands']
+# print(1,countries)
+# print(countries[0])
+
+# countries[0] = 'Tajikistan'
+# print(countries)
+# countries.insert(1,'Zimbabwe')
+# print(countries)
+# countries.append('Turkey')
+# print(countries)
+
+
+# country_1 = ['UK', 'USA', 'DE']
+# country_2 = countries + country_1
+# print(country_2)
+
+

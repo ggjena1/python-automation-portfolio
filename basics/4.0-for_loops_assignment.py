@@ -1,10 +1,12 @@
-#Homework: Assignment
+# Assignment: For Loop Practice
+# 1
 '''
 1. A weather station records the temperatures measured at 6 different times during the day.
 Create a list containing 6 temperature values.
 Use a for loop to go through the list and add 2 degrees to every temperature. Print each original temperature together with the adjusted temperature.
 Use an if condition to check whether the adjusted temperature is above 30 degrees. Display "Hot" or "Normal" for each reading.
 '''
+print("Exercise 1")
 
 temp = [23.2, 23.5, 29, 28.4, 22, 21.2]
 for i in range(len(temp)):
@@ -27,6 +29,9 @@ for i in range(len(temp)):
     else:
         print('Normal')
 
+print("-" * 40)
+
+# 2
 '''
 2. A supermarket records the number of customers entering the store during 8 different hours.
 Create a list containing the customer counts.
@@ -38,6 +43,7 @@ Display whether each hour was "Busy" or "Not busy".
 
 Also calculate and display the total number of customers using sum().
 '''
+print("Exercise 2")
 customer_count = [35, 84, 32, 90, 21, 86, 34, 90]
 sum = 0
 for i in range(len(customer_count)):
@@ -60,6 +66,9 @@ for i in range(len(customer_count)):
     total = sum(customer_count)
 print(f'Total number of customers : {total}')
 
+print("-" * 40)
+
+# 3
 '''
 3. A fitness app stores the number of steps taken by a user over 7 days.
 Create a list containing the step counts.
@@ -72,6 +81,7 @@ Display "Goal reached" or "Goal not reached" for each day.
 
 Also display the highest and lowest updated step counts.
 '''
+print("Exercise 3")
 updated_steps = []
 step_counts = [12000, 6000, 9000, 13000, 15000,20000]
 extra_steps = int(input('Enter no of additional extra steps to add: '))
@@ -93,6 +103,9 @@ for i in range(len(step_counts)):
 print(f'highest updated steps count {highest}')
 print(f'lowest updated steps count {lowest}')
 
+print("-" * 40)
+
+# 4
 '''
 4. A restaurant has a waiting list containing the names of customers waiting for tables.
 Create a list containing 8 customer names.
@@ -106,6 +119,8 @@ If the customer is already on the list, display their position using index().
 
 Finally, display the updated waiting list.
 '''
+print("Exercise 4")
+
 cust_names = ['Gautam', 'Ronald', 'Jerry', 'Max', 'Bill', 'Sundar', 'Mark', 'Jeff']
 name = input('Enter your name in Pascal case : ')
 
@@ -115,6 +130,9 @@ else:
     cust_names.append(name)
     print(f'Your position is in {cust_names.index(name)} ')
 
+print("-" * 40)
+
+# 5
 '''
 5. A delivery company records the weights of 8 packages.
 Create a list containing the package weights.
@@ -127,7 +145,7 @@ Display the package number, weight, and appropriate category.
 
 Also calculate and display the total weight of all packages.
 '''
-
+print("Exercise 5")
 pkg_weights = [2.4, 5.4, 5.9, 3.2, 9.6, 3, 4, 7.4, 8.2, 12]
 for i in range(len(pkg_weights)):
     print(i, pkg_weights[i])
@@ -142,7 +160,9 @@ for i in range(len(pkg_weights)):
 total_weight = sum(pkg_weights)
 print(f'Total weight of all the packages are {total_weight}')
 
+print("-" * 40)
 
+# 6
 '''
 6. A school stores the marks of students from 3 different classes. Each class has 4 students.
 Create a two-dimensional list containing the marks for all 3 classes.
@@ -155,6 +175,7 @@ Use an if condition to display "Pass" if the updated mark is 50 or above and "Fa
 
 Finally, display the highest mark from all the scores.
 '''
+print("Exercise 6")
 marks = [
     [30,40,50,60],
     [34,44,54,64],
@@ -174,6 +195,9 @@ for i in marks:
 highest_mark = max(updated_mark)
 print(f'Highest Mark is {highest_mark}')
 
+print("-" * 40)
+
+# 7
 '''
 7. A small online store keeps a list of product names and a separate list containing their prices.
 Create a list containing 8 product names and another list containing their prices.
@@ -194,6 +218,7 @@ Display the product name, price per unit, quantity, and final cost.
 
 If the product does not exist, display a message saying that the product is unavailable.
 '''
+print("Exercise 7")
 products = ['Laptop', 'Phone', 'Tablet', 'Headphones','Keyboard', 'Mouse', 'Monitor', 'Printer']
 prices = [45000, 25000, 18000, 3000, 1500, 1000, 12000, 8000]
 
@@ -221,5 +246,8 @@ if product_name in products:
 else:
     # product does not exists
     print('Product Unavailable')
+
+print("-" * 40)
+
 
     

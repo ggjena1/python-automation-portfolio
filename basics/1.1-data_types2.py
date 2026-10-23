@@ -3,10 +3,12 @@ Escape sequences
 '''
 
 print(1,"Hello\nworld")
+
+
 print(2,"Hello\tworld")
 
-print(3,"Hello\\world")
-print(4,"C:\\Users\\Gautam")
+print(3,"Hello\\world")         # 3 Hello\world
+print(4,"C:\\Users\\Gautam")    # 4 C:\Users\Gautam
 
 print(5,"He said \"hello\"")
 print(6,'He said \'hello\'')
@@ -112,6 +114,15 @@ Classify them as:
 If the age is negative, print "Invalid age".
 
 Print the guest's classification.
+''' 
+
+
+
+
+
+
+
+''' 
 
 2. A fitness center wants to decide whether a person can join a particular training program.
 
@@ -126,6 +137,9 @@ If it is "advanced", print "Advanced Program".
 If the person is under 18, print "Youth Program".
 
 Use nested if statements.
+'''
+
+'''
 
 3. A cinema wants to calculate how many tickets a customer needs to buy.
 
@@ -144,6 +158,10 @@ Seniors: 60 and above
 
 Print the number of people in each category.
 
+'''
+
+'''
+
 4. A delivery company wants to calculate the delivery fee for several packages.
 
 Create a function called calculate_delivery_fee() that receives the weight of a package.
@@ -160,7 +178,9 @@ Ask the user how many packages they want to send.
 Use a for loop to get the weight of each package and call the function.
 
 Store the package weights in a list and print the total delivery fee.
+'''
 
+'''
 5. A school is organizing students into sports teams.
 
 Ask the user how many students are participating.
@@ -178,6 +198,9 @@ Students aged 13 to 17 should be classified as "Junior Team".
 Students below 13 should be classified as "Youth Team".
 
 Print each student's name and team.
+'''
+
+'''
 
 6. A supermarket wants to evaluate a customer's shopping basket.
 
@@ -201,7 +224,9 @@ If the customer spent $100 or more, ask whether they have a membership.
 If they answer "yes", apply a 10% discount.
 
 Print the original total, discount if applicable, and final total.
+'''
 
+'''
 7. A company is building a training evaluation system for its employees.
 
 Create a function called evaluate_employee() that receives an employee's age, training score, and number of completed projects.

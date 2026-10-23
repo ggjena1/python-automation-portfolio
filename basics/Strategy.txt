@@ -1,0 +1,28 @@
+
+🔑 Updated Daily Activation Keywords
+
+I have added advanced loops to your automated daily training tracks. You can now use these phrases to launch your 30-minute practice blocks:
+
+Topic	Basic Track (20 Qs)	Intermediate Track (10 Qs)	Advanced Track (5 Qs)
+📋 Lists	Daily List Challenge: Basic	Daily List Challenge: Intermediate	Daily List Challenge: Advanced
+📖 Dictionaries	Daily Dict Challenge: Basic	Daily Dict Challenge: Intermediate	Daily Dict Challenge: Advanced
+🔄 Loops (For/While)	Daily Loop Challenge: Basic	Daily Loop Challenge: Intermediate	Daily Loop Challenge: Advanced
+
+
+
+
+[Month 1: Collections & Advanced Loops]
+  ├── Slot A: Direct Core Concept & Practice
+  └── Slot B: 30-Min Daily Challenges (Basic/Int/Adv)
+        │
+[Month 2: Core Python for Testing]
+  ├── Functions, Arguments (*args, **kwargs)
+  └── File Handling (Reading JSON/CSV test data) & Exceptions
+        │
+[Month 3: Object-Oriented Programming (OOP)]
+  ├── Classes & Objects for Page Object Models (POM)
+  └── Inheritance & Dictionaries for Automation Frameworks
+        │
+[Month 4: Framework Implementation]
+  ├── Pytest (Fixtures, Parametrization, Assertions)
+  └── Robot Framework (Keywords, Test Cases, Variables)

@@ -11,16 +11,16 @@ Print two of the variables.
 Then use an f-string to print a sentence describing the player using at least 3 of the variables.
 '''
 #1 
-name = "Messi"
-age = 35
-height = 5.5
-current_injury = None
-is_captain = True
+# name = "Messi"
+# age = 35
+# height = 5.5
+# current_injury = None
+# is_captain = True
 
-print(name)
-print(is_captain)
+# print(name)
+# print(is_captain)
 
-print(f"My favorite player is {name} and his height is {height} and his age is {age}")
+# print(f"My favorite player is {name} and his height is {height} and his age is {age}")
 
 '''
 2. You are building a small hotel booking system.
@@ -969,3 +969,11 @@ if product_name in products:
 else:
     # product does not exists
     print('Product Unavailable')
+
+
+
+
+
+
+
+

@@ -1,6 +1,18 @@
 Book free session for the tests (book only before 1 day) : https://calendly.com/praveenkehelella/30min
 
 
+Praveens Input:
+# YAML in python
+https://www.youtube.com/watch?v=nFl6EXfcvLI
+
+# YAML in Github Actions
+https://www.youtube.com/watch?v=nFl6EXfcvLI
+
+
+
+
+Keywords—Containers; Docker; Jenkin; Kubernetes; rancher; virtualization
+
 Reference: 
 - Automate Boring Stuff with Python by AI Sweigart (Following you tube videos)
 - Head first Python

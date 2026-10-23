@@ -250,4 +250,57 @@ else:
 print("-" * 40)
 
 
-    
+'''
+A shop wants to display the numbers of items currently stored in 30 boxes. 
+Ask the user for the number of items in each box, one box at a time, and store the numbers in a list. 
+After all 30 numbers have been entered, print the complete list.
+'''
+
+
+
+
+
+
+
+
+'''
+A cinema wants to calculate the average age of 5 customers buying tickets. 
+Ask the user to enter the age of each customer. Store the ages in a list, calculate the average age, and print it. 
+Also print whether the average age is 18 or above or below 18.
+'''
+
+
+
+
+
+'''
+A fitness app records the number of steps a person takes each day for 7 days. 
+Ask the user to enter the steps for each day and store them in a list. 
+Calculate and print the total number of steps and the average number of steps per day. Also print how many days had 10000 or more steps.
+'''
+
+
+
+
+'''
+A restaurant wants to display a row of seats for a small dining area. Ask the user for the number of rows. For each row, print a pattern of "#" characters where the first row contains 1 seat, the second row contains 3 seats, the third row contains 5 seats, and so on. Each row should be centered using spaces.
+'''
+
+
+
+'''
+A delivery company wants to inspect the delivery distances for 8 deliveries. Ask the user to enter the distance in kilometers for each delivery and store them in a list. Print the list of distances, then use a for loop to calculate the total distance. Also count and print how many deliveries were longer than 20 kilometers.
+'''
+
+
+
+'''
+A school wants to create a simple attendance report for a class. Ask the user how many students are in the class. For each student, ask whether the student was present or absent and store the responses in a list. After collecting all responses, use a for loop to count the number of present and absent students. Print the totals and print whether the class attendance rate is at least 80 percent.
+'''
+
+
+
+'''
+A small warehouse needs a stock monitoring program. Ask the user how many products they want to check. For each product, ask for its current stock quantity and store the quantities in a list. Use a for loop to examine every quantity. Print the quantity for each product, identify whether each product is low in stock when its quantity is below 10, calculate the total number of items in the warehouse, and calculate the average stock quantity per product.    
+'''
+

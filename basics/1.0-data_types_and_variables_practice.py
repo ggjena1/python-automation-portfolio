@@ -179,6 +179,15 @@ Use appropriate Python data types.
 Print a sentence containing the student's name, course, and GPA using an f-string.
 Then create a boolean variable that indicates whether the student is allowed to register for courses and print it.
 '''
+#3
+student_name = "Gautam"
+age = 21
+course = "Bachelor"
+GPA = 9.8
+scholarship_status = None
+is_allowed_to_register = True
+
+print(f"{student_name} is registered for the {course} and has GPA {GPA}")
 
 '''
 4. You are building a food delivery application.
@@ -194,6 +203,7 @@ Print a sentence describing the order using an f-string.
 Then create another variable for the total cost of the order and print a second sentence containing the restaurant name and total cost.
 '''
 
+# Yet to start 
 
 '''
 5. You are creating a small employee information system for a company.
@@ -210,6 +220,16 @@ Then change the manager variable to a name and print another sentence showing th
 Make sure all variable names follow Python's variable naming rules.
 '''
 
+#5
+employee_name = "Rocks"
+department = "Finance"
+years_of_experience = 10
+monthly_salary = 10500
+manager_name = None
+
+print(f"{employee_name} belongs to {department} and having {years_of_experience} years of experience")
+
+
 '''
 6. You are building a cinema ticket booking system.
 Create variables for:
@@ -224,8 +244,16 @@ Print a sentence containing the movie title, customer name, number of tickets, a
 Then use an if statement to print whether the booking is confirmed or not based on the payment status.
 Use meaningful variable names that follow Python naming rules.
 '''
+#6 
+movie_title = "Titanic"
+number_of_tickets = 2
+ticket_price = 10
+customer_name = "Gerrard"
+payment_completed = True
 
+total_ticket_cost = number_of_tickets * ticket_price
 
+print(f"{movie_title} film ticket is sold to {customer_name} with {number_of_tickets} seats and for the amount {total_ticket_cost}")
 
 '''
 7. You are creating a simple online store order system.
@@ -245,48 +273,4 @@ Print a final descriptive sentence using an f-string that includes the customer 
 Make sure every variable name follows Python's variable naming rules.
 '''
 
-
-
-
-#3
-student_name = "Gautam"
-age = 21
-course = "Bachelor"
-GPA = 9.8
-scholarship_status = None
-is_allowed_to_register = True
-
-print(f"{student_name} is registered for the {course} and has GPA {GPA}")
-
-
-
-#4 In_progress
-
-
-#5
-employee_name = "Rocks"
-department = "Finance"
-years_of_experience = 10
-monthly_salary = 10500
-manager_name = None
-
-print(f"{employee_name} belongs to {department} and having {years_of_experience} years of experience")
-
-#6
-#6 
-movie_title = "Titanic"
-number_of_tickets = 2
-ticket_price = 10
-customer_name = "Gerrard"
-payment_completed = True
-
-total_ticket_cost = number_of_tickets * ticket_price
-
-print(f"{movie_title} film ticket is sold to {customer_name} with {number_of_tickets} seats and for the amount {total_ticket_cost}")
-
-#7 
-
-
-a = 'hello world'
-print(a)
-
+# Yet to start

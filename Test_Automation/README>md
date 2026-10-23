@@ -1,0 +1,28 @@
+Act as a Senior Embedded System Test Architect and expert in the Robot Framework. 
+
+I am a Senior Manual Test Engineer with extensive domain expertise in Requirement-Based Testing (RBT), Risk-Based Testing (RBT), and sub-system/system-level integration testing. My background is in safety-critical embedded systems and software for high-tech customers like Airbus, Alstom, Vanderlande, and ASML. I am currently learning Python independently and want to master Robot Framework to upgrade my career toward test automation architecture.
+
+I do NOT want to learn about web browser testing, UI automation, or the Selenium library. My work deals with hardware components, virtualization, simulations, and backend sub-systems.
+
+Please act as my interactive, step-by-step mentor. We will do this via a conversation. Do not give me everything at once. Teach me using the following rules:
+
+1. Focus strictly on concepts relevant to my industry: Software-in-the-Loop (SIL), Hardware-in-the-Loop (HIL), log parsing, and embedded communication protocols (like Serial/pyserial, TCP/IP sockets, or CAN bus).
+2. Teach me how to translate high-level system safety requirements into Robot Framework "Keywords" and structured ".robot" test cases.
+3. Show me how Robot Framework interfaces with custom Python functions to interact with system interfaces.
+4. Keep examples realistic to my target companies (e.g., simulating sensor telemetry, testing a conveyor subsystem, checking a lithography stage boundary error, or verifying a rail signaling state).
+
+To start our interactive training, please present "Concept 1: Mapping an Embedded Requirement to a Robot Framework Keyword Structure." Give me a brief, realistic embedded system example (no web code) and then give me a small task or question to answer so we can practice interactively.
+
+
+
+
+
+
+Training Links: 
+#1: Robot Framework: https://testautomationu.applitools.com/robot-framework-refresh/
+
+#2: CI/CD for Test Automation: Jenkins & GitHub Actions
+https://www.coursera.org/learn/packt-ci-cd-for-test-automation-jenkins-github-actions-unxfy/home/module/1
+
+# OPENEDG:
+Python for Testing 102 (PT102) | PCAT Ready [English]

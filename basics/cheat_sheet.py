@@ -165,7 +165,7 @@ METHOD 2: WHILE LOOP IS RUN WITH TRUE AND BROKEN WHEN NECESSARY
 
 while True:
     action 
-    if TIME_TO_BREAK:
+    if CONDTION_TO_BREAK:
         break
 
 '''

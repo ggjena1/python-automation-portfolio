@@ -302,6 +302,9 @@ Allow the visitor to enter "exit" to stop the program.
 
 
 
+
+
+
 '''
 2\. A cinema ticket booking system asks the customer to enter their age.
 Customers aged between 1 and 100 are accepted. 
@@ -333,6 +336,7 @@ Each age must be a number between 1 and 100.
 Reject invalid entries and continue asking. Store accepted ages in a list. 
 At the end, display the number of guests, the youngest guest's age, the oldest guest's age, and the average age.
 '''
+
 
 
 
